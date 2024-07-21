@@ -21,4 +21,4 @@ print('Строка goal не разобрана на символы,она зд
 print('      заменен перрвый элемент списка')
 mutable_list.remove('chair')
 print('mutable_list:', mutable_list)
-print('Элемент chair  исключен из списка')
+print('  Элемент chair  исключен из списка')
