@@ -1,14 +1,28 @@
-# 1st programm
-print((9 ** 0.5) * 5)
-# 2st programm
-print(9.99 > 9.98 and 1000 != 1000.1)
-# 3st programm
-print((1234 // 10) % 100)
-print((5678 // 10) % 500)
-print((1234 // 10) % 100 + (5678 // 10) % 500)
-# 4st programm
-print(int(13.42))  # 13
-print(int(13.42 * 100 - 1300))  # 42
-print(int(42.13))  # 42
-print(int(42.13 * 100 - 4200))  # 13
-print(int(13.42) == int((42.13 * 100) - 4200) or int(13.42) == int(42.13 * 100 - 4200))
+my_dict = {'Владимир': 1870, 'Fedor': 2000, 'Анна': 2002}
+print(type(my_dict))
+print('Dict:', my_dict)
+print(my_dict['Владимир']) # Вывод значения по существующему ключу
+print(my_dict.get('Байден')) # Ключ отсутствует
+my_dict.update({'Petr': 2001,
+               'Maria': 2016})
+print('Modificed dictionary:', my_dict)
+a = my_dict.pop('Fedor')
+print('Deleted value:', a)
+print('Modificed dictionary:', my_dict)
+
+my_set = {1, 3, 6, 'dog', 'cat'}
+print('My_set:', my_set)
+my_set.add(5)
+my_set.add('goal')
+print('Modificired my_set:', my_set)
+my_set.discard(3)
+print('Modificired my_set:', my_set)
+
+
+
+
+
+
+
+
+
