@@ -15,7 +15,7 @@ print(int(13.42) == int((42.13 * 100)) % 100) or int(42.13) == int((13.42 * 100)
 
 #4th programm (вариант)
 a1 = int(13.42)
-print(a1 )                                #13
+print(a1)                                #13
 a2 = int((13.42 * 100) % 100)
 print(a2)                                  # 42
 b1 = int(42.13)
